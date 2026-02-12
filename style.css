@@ -1,0 +1,94 @@
+        @import url('fonts/main_font.css');
+
+        * {
+            /* Сбрасывание стандартных стилей и добавление шрифтов */
+            /* Сбрасывание стандартных стилей и добавление шрифтов */
+            margin: 0;
+            font-family: 'StratosSkyeng', sans-serif;
+        }
+
+        .content {
+            /* Эти два свойства нужны чтобы фон подстраивался на весь экран */
+            background-size: cover;
+            min-height: 100vh;
+            background: url(./images/background.jpg);
+            position: relative;
+            /* Пиши свой код ниже */
+
+        }
+
+
+        /* Класс для расположения элементов в 1 ряд */
+        .in-one-line {
+            display: flex;
+            /* Отступ между элементами */
+            gap: 32px;
+        }
+
+        /* Класс для центрирования страницы */
+        .center {
+            padding-left: max(20px, calc(50% - 500px));
+            padding-right: max(20px, calc(50% - 500px));
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 22px;
+
+        }
+
+        img {
+            border-radius: 12px;
+        }
+
+        .nuzhno {
+            padding: 128px 50px;
+        }
+
+        .artur {
+            margin-left: 70px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .index {
+            padding-top: 50px;
+        }
+
+        li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        a {
+
+        }
+        
+        .go {
+            display: block;
+            background-color: #894AFF;
+            color: white;
+            padding: 11px 30px;
+            border-radius: 50px;
+            font-size: 38px;
+            position: absolute;
+            top: 65px;
+            right: 80px;
+        }
+        
+        .back {
+            display: block;
+            background-color: #894AFF;
+            color: white;
+            padding: 11px 30px;
+            border-radius: 50px;
+            font-size: 38px;
+            position: absolute;
+            top: 65px;
+            left: 80px;
+        }
+
